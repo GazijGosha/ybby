@@ -1,0 +1,60 @@
+
+table.one>thead{
+background-color: lightcyan;
+color: grey;
+}
+table.one>tbody>tr:nth-child(odd){
+ background-color:lightpink;
+}
+div.table2{
+   background-color: cyan;
+}
+div.table2{
+   width: 288px;
+}
+div.table2>table>tbody{
+background-color: white;
+}
+.second{
+   background-color:brown;
+}
+div.table3>table{
+   width: 500px;
+}
+div.table3>table>tbody>tr:nth-child(2n+1){
+   background-color: cyan;
+}
+div.table3>table>tbody>tr:nth-child(2n+2){
+   background-color: tomato;
+}
+div.table4{
+   color: white;
+}
+div.table4>table>tbody>tr:nth-child(2n+1)>td:nth-child(2n+1),div.table4>table>tbody>tr:nth-child(2n+2)>td:nth-child(2n+2){
+   background-color: lightgreen;
+   color: lightgreen;
+}
+div.table5 td:nth-child(4n+1){
+   background-color: lightpink;
+}
+div.table5 td:nth-child(4n+2){
+background-color:blue ;
+}
+div.table5 td:nth-child(4n+3){
+   background-color: yellow;
+}
+div.table5 td:nth-child(4n+4){
+   background-color: green;
+}
+div.task6{
+   background-color: yellowgreen;
+}
+div.task6 p:nth-child(2n+2){
+   color: darkred;
+}
+div.task7 p:first-letter{
+color: red;
+}
+.green{
+   color:green ;
+}
